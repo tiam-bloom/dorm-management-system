@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="dorm-management-system:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca4e41ed-bb11-42d5-9a1d-b5a85ca40843" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/ChangePasswordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/DormBuildServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/DormManagerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/LoginOutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/RecordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/DormBuildDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/RecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/impl/DormBuildDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/impl/RecordDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/filter/GlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/pojo/DormBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/pojo/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/DormBuildService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/RecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/impl/DormBuildServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/impl/RecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/PageTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/ResultSetUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page-taglib.tld" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page-taglib.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/dormBuildList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/dormBuildList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerAddOrUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerAddOrUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/passwordChange.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/passwordChange.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/recordList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/recordList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/studentAddOrUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/studentAddOrUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/studentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/studentList.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JRBHKTcUaqcudV4UOks1vN5mc8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desktop\JavaWeb-Design\dorm-management-system\src\main\resources" />
+      <recent name="D:\desktop\JavaWeb-Design\dorm-management-system\src\main\java" />
+      <recent name="D:\desktop\JavaWeb-Design\dorm-management-system\src\main\java\fit\yujing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.52">
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dorm-management-system" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dorm-management-system" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dorm-management-system" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dorm-management-system" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dorm-management-system" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <deployment>
+        <artifact name="dorm-management-system:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="0d4ff325-7f45-4e89-9d4a-ca26fd7eb426" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60637" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="dorm-management-system:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.test.test04" />
+      <item itemvalue="JUnit.test.test03" />
+      <item itemvalue="JUnit.test.test02" />
+      <item itemvalue="JUnit.test.test01" />
+      <item itemvalue="JUnit.test.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.52" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.test04" />
+        <item itemvalue="JUnit.test.test03" />
+        <item itemvalue="JUnit.test.test01" />
+        <item itemvalue="JUnit.test.test02" />
+        <item itemvalue="JUnit.test.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca4e41ed-bb11-42d5-9a1d-b5a85ca40843" name="Changes" comment="" />
+      <created>1672030925780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672030925780</updated>
+      <workItem from="1672030927426" duration="2006000" />
+      <workItem from="1672115775257" duration="15790000" />
+      <workItem from="1672197045160" duration="2742000" />
+      <workItem from="1672277090090" duration="14605000" />
+      <workItem from="1672373827027" duration="9643000" />
+      <workItem from="1672547321807" duration="11960000" />
+      <workItem from="1672661374992" duration="12173000" />
+      <workItem from="1672721252562" duration="20158000" />
+      <workItem from="1672805818097" duration="4938000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
