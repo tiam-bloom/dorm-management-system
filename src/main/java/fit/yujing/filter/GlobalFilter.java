@@ -32,6 +32,10 @@ public class GlobalFilter implements Filter {
         String requestURI = req.getRequestURI();
         log.info("拦截请求: {}", requestURI);
         switch (requestURI) {
+            // 登录和登出请求直接放行
+            case "/login":
+            case "/loginOut.action":
+                break;
             // 1. 请求登录页面, 有session记录, 直接跳转主页
             case "/":
                 if (user != null) req.getRequestDispatcher("/index.action").forward(req, resp);

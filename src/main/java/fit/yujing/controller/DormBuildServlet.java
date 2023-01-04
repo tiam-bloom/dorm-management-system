@@ -3,10 +3,8 @@ package fit.yujing.controller;
 import fit.yujing.dao.DormBuildDao;
 import fit.yujing.dao.impl.DormBuildDaoImpl;
 import fit.yujing.pojo.DormBuild;
-import fit.yujing.pojo.User;
 import lombok.extern.slf4j.Slf4j;
 
-import javax.persistence.criteria.CriteriaBuilder;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -14,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 

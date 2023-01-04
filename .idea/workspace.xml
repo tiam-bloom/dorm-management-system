@@ -10,48 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca4e41ed-bb11-42d5-9a1d-b5a85ca40843" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/ChangePasswordServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/DormBuildServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/DormManagerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/IndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/LoginOutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/RecordServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/DormBuildDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/RecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/impl/DormBuildDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/impl/RecordDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/filter/GlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/pojo/DormBuild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/pojo/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/DormBuildService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/RecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/impl/DormBuildServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/impl/RecordServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/PageTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/utils/ResultSetUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page-taglib.tld" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page-taglib.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/dormBuildList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/dormBuildList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerAddOrUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerAddOrUpdate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/dormManagerList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/passwordChange.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/passwordChange.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/recordList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/recordList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/studentAddOrUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/studentAddOrUpdate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/studentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/studentList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/DormBuildServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/controller/DormBuildServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fit/yujing/filter/GlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fit/yujing/filter/GlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/standard.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,18 +60,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desktop\JavaWeb-Design\dorm-management-system\src\main\resources" />
@@ -263,6 +237,7 @@
       <workItem from="1672661374992" duration="12173000" />
       <workItem from="1672721252562" duration="20158000" />
       <workItem from="1672805818097" duration="4938000" />
+      <workItem from="1672822459286" duration="741000" />
     </task>
     <servers />
   </component>
